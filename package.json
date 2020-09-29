@@ -1,0 +1,11 @@
+{
+  "name": "alex_testing_lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
