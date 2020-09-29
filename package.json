@@ -2,10 +2,19 @@
   "name": "alex_testing_lesson",
   "version": "1.0.0",
   "description": "",
-  "main": "server/index.js",
+  "main": "source/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "supertest": "^5.0.0"
+  }
 }
